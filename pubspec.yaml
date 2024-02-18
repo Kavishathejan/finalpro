@@ -1,0 +1,30 @@
+name: bmi_cal
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  get: ^4.6.1  
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  assets:
+    - assets/exercise.png
+    - assets/severe.png
+    - assets/medium.png
+    - assets/slight.png
+    - assets/normal.png
+    - assets/over.png
+    - assets/obesity.png
+    - assets/patho.png
+
